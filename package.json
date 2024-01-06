@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --watch index.js"
+    "start": "node --watch index.js",
+    "createTables": "node ./src/db/initDb.js"
   },
   "keywords": [],
   "author": "",
