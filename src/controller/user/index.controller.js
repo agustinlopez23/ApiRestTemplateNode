@@ -1,2 +1,3 @@
 import create from '../../controller/user/create.controller.js'
-export { create }
+import login from '../../controller/user/login.controller.js'
+export { create, login }

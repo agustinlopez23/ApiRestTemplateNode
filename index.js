@@ -12,3 +12,4 @@ api.use(errorController)
 api.listen(HTTP_PORT, () => {
   console.log(`Listen on port http://localhost:${HTTP_PORT}`)
 })
+export default api
